@@ -1,5 +1,7 @@
 SampleAppl::Application.routes.draw do
   
+  get "rooms_controller/new"
+
   get "users/new"
 
   root to: 'static_pages#home'
